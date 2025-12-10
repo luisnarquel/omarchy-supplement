@@ -29,6 +29,7 @@ if [ $? -eq 0 ]; then
 
   cd "$REPO_NAME"
   stow nvim
+  stow proton-mail
 else
   echo "Failed to clone the repository."
   exit 1
